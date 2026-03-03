@@ -1,0 +1,11 @@
+# Ignore everything in target/
+#target/*
+
+# But do not ignore the specific .jar file we need to copy
+#!target/SearchService-Quarkus.jar
+#!target/SearchService-Quarkus-jar-with-dependencies.jar
+
+# Optionally, you can also keep the runner jars and other required files
+#!target/*-runner.jar
+#!target/lib/*
+#!target/quarkus-app/*
